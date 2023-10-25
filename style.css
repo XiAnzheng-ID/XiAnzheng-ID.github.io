@@ -16,7 +16,7 @@ body {
     color: #86A789;
 }
 
-#datadiri, #pendidikan, #pengalaman, #hobi, #skill{
+#datadiri, #pendidikan, #pengalaman, #hobi, #skill, #project{
     background-color: #D2E3C8;
     border: 2px solid #86A789;
     border-radius: 8px;
@@ -37,6 +37,12 @@ body {
 
 #skill ul, #pendidikan ul, #pengalaman ul {
     text-align: left;
+
+}
+
+#project a {
+    text-decoration: none;
+    color: #86A789;
 }
 
 .button {
