@@ -1,0 +1,53 @@
+body {
+    background-color: #B2C8BA;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#foto {
+    border: 4px solid #86A789;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bio {
+    color: #86A789;
+}
+
+#datadiri, #pendidikan, #pengalaman, #hobi, #skill{
+    background-color: #D2E3C8;
+    border: 2px solid #86A789;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+#datadiri h2, #pendidikan h2, #pengalaman h2, #hobi h2, #skill h2 {
+    color: #86A789;
+}
+
+#datadiri p {
+    text-align: left;
+    margin: 10px 0;
+}
+
+#skill ul, #pendidikan ul, #pengalaman ul {
+    text-align: left;
+}
+
+.button {
+    background-color: #86A789;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #B2C8BA;
+}
